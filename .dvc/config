@@ -1,0 +1,7 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = gdrive://1cNPh0ESwP2RTpM7oE59cbpzVQMnd_705
+    gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = tmp/gdrive-user-credentials.json
+    gdrive_client_id = 108760936836118372676
