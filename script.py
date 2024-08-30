@@ -6,7 +6,6 @@ import seaborn as sns
 import os
 from imblearn.over_sampling import SMOTE
 from PIL import Image
-
 import joblib
 ## skelarn -- preprocessing
 from sklearn.model_selection import train_test_split
@@ -27,7 +26,7 @@ from sklearn.metrics import f1_score, confusion_matrix
 ## --------------------- Data Preparation ---------------------------- ##
 
 ## Read the Dataset
-TRAIN_PATH = os.path.join(os.getcwd(), 'dataset.csv')
+TRAIN_PATH = os.path.join(os.getcwd(), 'data/dataset.csv')
 df = pd.read_csv(TRAIN_PATH)
 
 ## Drop first 3 features
