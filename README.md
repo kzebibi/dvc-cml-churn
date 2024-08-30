@@ -42,7 +42,7 @@ git branch -M main
 git remote add origin https://github.com/kzebibi/dvc-cml-churn.git
 dvc remote add -f --default myremote gdrive://1cNPh0ESwP2RTpM7oE59cbpzVQMnd_705
 dvc remote modify myremote gdrive_use_service_account true
-dvc remote modify myremote gdrive_service_account_json_file_path /home/khaled/secrets/upheld-welder-433712-p3-12d25ddda6fc.json
+dvc remote modify myremote gdrive_service_account_json_file_path client_secret_545800426601-9fhh831ssubgffhuptclri81eu2b3rjg.apps.googleusercontent.com.json
 
 git push -u origin main
 dvc push
